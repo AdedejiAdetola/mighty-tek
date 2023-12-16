@@ -1918,13 +1918,18 @@ ul.ttm_contact_widget_wrapper li i{
 /* ANIMATIONS FOR ALL WEBSITE */
 .fade-in{
     opacity: 0;
-    transition: opacity 1200ms ease-in;
+    transition: opacity 900ms ease-in;
 }
 
 .fade-in.appear {
     opacity: 1;
 }
 
+@media only screen and (max-width:995px) {
+    .dNone {
+        display: none;
+    }
+}
 /* .from-left, 
 .from-left-t1{
     transform: translateX(-100%);
